@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660B2B481AC7EBCF00D11656 /* ProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 660B2B471AC7EBCF00D11656 /* ProgressBar.m */; };
+		660B2BF71ACF091C00D11656 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 660B2BF51ACF091C00D11656 /* correct.wav */; };
+		660B2BF81ACF091C00D11656 /* incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 660B2BF61ACF091C00D11656 /* incorrect.wav */; };
+		664132441ABEFA2B0069B6B1 /* Theater.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 664132431ABEFA2B0069B6B1 /* Theater.ttf */; };
+		666DA1FE1ABB46E300C1AD06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666DA1FD1ABB46E300C1AD06 /* main.m */; };
+		666DA2011ABB46E300C1AD06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666DA2001ABB46E300C1AD06 /* AppDelegate.m */; };
+		666DA2041ABB46E300C1AD06 /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 666DA2031ABB46E300C1AD06 /* GameScreen.m */; };
+		666DA2071ABB46E300C1AD06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666DA2051ABB46E300C1AD06 /* Main.storyboard */; };
+		666DA2181ABB46E400C1AD06 /* MadCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 666DA2171ABB46E400C1AD06 /* MadCatTests.m */; };
+		667160F81AD133340077FEFC /* GameOverScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 667160F71AD133340077FEFC /* GameOverScreen.m */; };
+		66A7694D1ABF2EB400327088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A769451ABF2EB400327088 /* Images.xcassets */; };
+		66D7B9941AC16A5300E5075A /* StartScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7B9931AC16A5300E5075A /* StartScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666DA2121ABB46E400C1AD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666DA1F01ABB46E300C1AD06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666DA1F71ABB46E300C1AD06;
+			remoteInfo = MadCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660B2B461AC7EBCF00D11656 /* ProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBar.h; sourceTree = "<group>"; };
+		660B2B471AC7EBCF00D11656 /* ProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBar.m; sourceTree = "<group>"; };
+		660B2BF51ACF091C00D11656 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
+		660B2BF61ACF091C00D11656 /* incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incorrect.wav; sourceTree = "<group>"; };
+		664132431ABEFA2B0069B6B1 /* Theater.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Theater.ttf; sourceTree = "<group>"; };
+		666DA1F81ABB46E300C1AD06 /* MadCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666DA1FC1ABB46E300C1AD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666DA1FD1ABB46E300C1AD06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		666DA1FF1ABB46E300C1AD06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		666DA2001ABB46E300C1AD06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		666DA2021ABB46E300C1AD06 /* GameScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScreen.h; sourceTree = "<group>"; };
+		666DA2031ABB46E300C1AD06 /* GameScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScreen.m; sourceTree = "<group>"; };
+		666DA2061ABB46E300C1AD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666DA2111ABB46E400C1AD06 /* MadCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666DA2161ABB46E400C1AD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666DA2171ABB46E400C1AD06 /* MadCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadCatTests.m; sourceTree = "<group>"; };
+		667160F61AD133340077FEFC /* GameOverScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScreen.h; sourceTree = "<group>"; };
+		667160F71AD133340077FEFC /* GameOverScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScreen.m; sourceTree = "<group>"; };
+		66A769451ABF2EB400327088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66D7B9921AC16A5200E5075A /* StartScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScreen.h; sourceTree = "<group>"; };
+		66D7B9931AC16A5300E5075A /* StartScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666DA20E1ABB46E400C1AD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664132421ABEFA2B0069B6B1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				664132431ABEFA2B0069B6B1 /* Theater.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		666DA1EF1ABB46E300C1AD06 = {
+			isa = PBXGroup;
+			children = (
+				666DA1FA1ABB46E300C1AD06 /* MadCat */,
+				666DA2141ABB46E400C1AD06 /* MadCatTests */,
+				666DA1F91ABB46E300C1AD06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		666DA1F91ABB46E300C1AD06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666DA1F81ABB46E300C1AD06 /* MadCat.app */,
+				666DA2111ABB46E400C1AD06 /* MadCatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666DA1FA1ABB46E300C1AD06 /* MadCat */ = {
+			isa = PBXGroup;
+			children = (
+				666DA1FF1ABB46E300C1AD06 /* AppDelegate.h */,
+				666DA2001ABB46E300C1AD06 /* AppDelegate.m */,
+				66D7B9921AC16A5200E5075A /* StartScreen.h */,
+				66D7B9931AC16A5300E5075A /* StartScreen.m */,
+				666DA2021ABB46E300C1AD06 /* GameScreen.h */,
+				666DA2031ABB46E300C1AD06 /* GameScreen.m */,
+				667160F61AD133340077FEFC /* GameOverScreen.h */,
+				667160F71AD133340077FEFC /* GameOverScreen.m */,
+				660B2B461AC7EBCF00D11656 /* ProgressBar.h */,
+				660B2B471AC7EBCF00D11656 /* ProgressBar.m */,
+				666DA2051ABB46E300C1AD06 /* Main.storyboard */,
+				66A769451ABF2EB400327088 /* Images.xcassets */,
+				666DA1FB1ABB46E300C1AD06 /* Supporting Files */,
+			);
+			path = MadCat;
+			sourceTree = "<group>";
+		};
+		666DA1FB1ABB46E300C1AD06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C582E91AC4941F00A4256C /* Sounds */,
+				664132421ABEFA2B0069B6B1 /* Fonts */,
+				666DA1FC1ABB46E300C1AD06 /* Info.plist */,
+				666DA1FD1ABB46E300C1AD06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		666DA2141ABB46E400C1AD06 /* MadCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				666DA2171ABB46E400C1AD06 /* MadCatTests.m */,
+				666DA2151ABB46E400C1AD06 /* Supporting Files */,
+			);
+			path = MadCatTests;
+			sourceTree = "<group>";
+		};
+		666DA2151ABB46E400C1AD06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				666DA2161ABB46E400C1AD06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66C582E91AC4941F00A4256C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				660B2BF51ACF091C00D11656 /* correct.wav */,
+				660B2BF61ACF091C00D11656 /* incorrect.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666DA1F71ABB46E300C1AD06 /* MadCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666DA21B1ABB46E400C1AD06 /* Build configuration list for PBXNativeTarget "MadCat" */;
+			buildPhases = (
+				666DA1F41ABB46E300C1AD06 /* Sources */,
+				666DA1F61ABB46E300C1AD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadCat;
+			productName = MadCat;
+			productReference = 666DA1F81ABB46E300C1AD06 /* MadCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666DA2101ABB46E400C1AD06 /* MadCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666DA21E1ABB46E400C1AD06 /* Build configuration list for PBXNativeTarget "MadCatTests" */;
+			buildPhases = (
+				666DA20D1ABB46E400C1AD06 /* Sources */,
+				666DA20E1ABB46E400C1AD06 /* Frameworks */,
+				666DA20F1ABB46E400C1AD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666DA2131ABB46E400C1AD06 /* PBXTargetDependency */,
+			);
+			name = MadCatTests;
+			productName = MadCatTests;
+			productReference = 666DA2111ABB46E400C1AD06 /* MadCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666DA1F01ABB46E300C1AD06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = yakov;
+				TargetAttributes = {
+					666DA1F71ABB46E300C1AD06 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					666DA2101ABB46E400C1AD06 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 666DA1F71ABB46E300C1AD06;
+					};
+				};
+			};
+			buildConfigurationList = 666DA1F31ABB46E300C1AD06 /* Build configuration list for PBXProject "MadCat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 666DA1EF1ABB46E300C1AD06;
+			productRefGroup = 666DA1F91ABB46E300C1AD06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666DA1F71ABB46E300C1AD06 /* MadCat */,
+				666DA2101ABB46E400C1AD06 /* MadCatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666DA1F61ABB46E300C1AD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7694D1ABF2EB400327088 /* Images.xcassets in Resources */,
+				660B2BF81ACF091C00D11656 /* incorrect.wav in Resources */,
+				660B2BF71ACF091C00D11656 /* correct.wav in Resources */,
+				666DA2071ABB46E300C1AD06 /* Main.storyboard in Resources */,
+				664132441ABEFA2B0069B6B1 /* Theater.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666DA20F1ABB46E400C1AD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		666DA1F41ABB46E300C1AD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660B2B481AC7EBCF00D11656 /* ProgressBar.m in Sources */,
+				667160F81AD133340077FEFC /* GameOverScreen.m in Sources */,
+				666DA2041ABB46E300C1AD06 /* GameScreen.m in Sources */,
+				66D7B9941AC16A5300E5075A /* StartScreen.m in Sources */,
+				666DA2011ABB46E300C1AD06 /* AppDelegate.m in Sources */,
+				666DA1FE1ABB46E300C1AD06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666DA20D1ABB46E400C1AD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666DA2181ABB46E400C1AD06 /* MadCatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666DA2131ABB46E400C1AD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666DA1F71ABB46E300C1AD06 /* MadCat */;
+			targetProxy = 666DA2121ABB46E400C1AD06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		666DA2051ABB46E300C1AD06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666DA2061ABB46E300C1AD06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		666DA2191ABB46E400C1AD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666DA21A1ABB46E400C1AD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666DA21C1ABB46E400C1AD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MadCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		666DA21D1ABB46E400C1AD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MadCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		666DA21F1ABB46E400C1AD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MadCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadCat.app/MadCat";
+			};
+			name = Debug;
+		};
+		666DA2201ABB46E400C1AD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MadCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadCat.app/MadCat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666DA1F31ABB46E300C1AD06 /* Build configuration list for PBXProject "MadCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666DA2191ABB46E400C1AD06 /* Debug */,
+				666DA21A1ABB46E400C1AD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666DA21B1ABB46E400C1AD06 /* Build configuration list for PBXNativeTarget "MadCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666DA21C1ABB46E400C1AD06 /* Debug */,
+				666DA21D1ABB46E400C1AD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666DA21E1ABB46E400C1AD06 /* Build configuration list for PBXNativeTarget "MadCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666DA21F1ABB46E400C1AD06 /* Debug */,
+				666DA2201ABB46E400C1AD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666DA1F01ABB46E300C1AD06 /* Project object */;
+}
