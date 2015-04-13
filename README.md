@@ -13,9 +13,7 @@
 Игра имеет 3 основных экрана:
 
 Start Screen
-
 Game Screen
-
 Game Over Screen
 
 Start Screen
@@ -23,15 +21,10 @@ Start Screen
 ![alt tag](https://cloud.githubusercontent.com/assets/11804765/7115090/65d0ebd2-e1ed-11e4-96c3-608d05cda47c.png)
 
 1 Открывает таблицу рекордов подключенную через Google Play Service API (не реализовано)
-
 2 При нажатии осуществляется переход в AppStore с просьбой оценить приложение (не реализовано)
-
 3 Переключение между уровнями сложности. Easier, Harder.
-
 4 Включение/выключение звуков
-
 5 Переход в окно помощи (tutorial) с правилами игры названием цветов. (не реализовано)
-
 6 Переход в игровое окно (Game Screen).
 
 
