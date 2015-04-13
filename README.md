@@ -16,7 +16,7 @@ Game Screen
 Game Over Screen
 
 Start Screen
-
+![alt tag](https://cloud.githubusercontent.com/assets/11804765/7115090/65d0ebd2-e1ed-11e4-96c3-608d05cda47c.png)
 Открывает таблицу рекордов подключенную через Google Play Service API (не реализовано)
 При нажатии осуществляется переход в AppStore с просьбой оценить приложение (не реализовано)
 Переключение между уровнями сложности. Easier, Harder.
