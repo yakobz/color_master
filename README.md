@@ -10,11 +10,10 @@
 Наличие большого количества фонов. 
 Временем для определения, которое уменьшяется в зависимости от набранных очков.
 
-Игра имеет 3 основных экрана:
-
-Start Screen
-Game Screen
-Game Over Screen
+Игра имеет 3 основных экрана:\n
+Start Screen\n
+Game Screen\n
+Game Over Screen\n
 
 Start Screen
 
