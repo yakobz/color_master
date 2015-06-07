@@ -106,6 +106,13 @@
 }
 
 - (IBAction)shareButtonReleased:(id)sender {
+    NSString *shareMessage = [NSString stringWithFormat:@"Score for this round was: %i", self.score];
+    NSArray *shareMessageArray = @[shareMessage];
+    
+    UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:shareMessageArray
+                                                                           applicationActivities:nil];
+    
+    [self presentViewController:activity animated:YES completion:nil];
     [self.shareButton setImage:[UIImage imageNamed:@"share.png"] forState:UIControlStateNormal];
 }
 

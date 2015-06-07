@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9E3A95B-C265-4966-9B28-80E24B89F8A7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MadCat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</key>
+		<string>https://github.com/yakobz/color_master</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MadCat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yakobz/color_master</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MadCad</string>
+		</dict>
+	</array>
+</dict>
+</plist>
