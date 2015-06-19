@@ -10,6 +10,12 @@
 	<string>MadCat</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>4182765C525509B305166AB949D5935FD5C85212</key>
+		<string>https://github.com/jdg/MBProgressHUD</string>
+		<key>742A7BCF9C7ABFA6EA4A77F1523E5DCF690305A2</key>
+		<string>https://github.com/denivip/VKActivity</string>
+		<key>B633EFFE0377E5E6D400664ED2E079D5E0D5105D</key>
+		<string>github.com:romaonthego/REComposeViewController.git</string>
 		<key>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</key>
 		<string>https://github.com/yakobz/color_master</string>
 	</dict>
@@ -17,6 +23,12 @@
 	<string>MadCat.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>4182765C525509B305166AB949D5935FD5C85212</key>
+		<string>../VKActivity/MBProgressHUD</string>
+		<key>742A7BCF9C7ABFA6EA4A77F1523E5DCF690305A2</key>
+		<string>../VKActivity</string>
+		<key>B633EFFE0377E5E6D400664ED2E079D5E0D5105D</key>
+		<string>../VKActivity/REComposeViewController</string>
 		<key>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</key>
 		<string>..</string>
 	</dict>
@@ -35,6 +47,30 @@
 			<string>E12E50B9D616DDDD4E9D195CD4CCCB661DF189C1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MadCad</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4182765C525509B305166AB949D5935FD5C85212</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBProgressHUD</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B633EFFE0377E5E6D400664ED2E079D5E0D5105D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>REComposeViewController</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>742A7BCF9C7ABFA6EA4A77F1523E5DCF690305A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VKActivity</string>
 		</dict>
 	</array>
 </dict>

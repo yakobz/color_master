@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VKSdk.h"
 
-@interface VKontakteActivity : UIActivity
-
-@property (nonatomic, copy) NSString *appID;
-
-- (id)initWithParent:(UIViewController*)parent;
+@interface VKontakteActivity : UIActivity <VKSdkDelegate>
 
 @end

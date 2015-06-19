@@ -17,8 +17,9 @@
 		666DA2071ABB46E300C1AD06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666DA2051ABB46E300C1AD06 /* Main.storyboard */; };
 		666DA2181ABB46E400C1AD06 /* MadCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 666DA2171ABB46E400C1AD06 /* MadCatTests.m */; };
 		667160F81AD133340077FEFC /* GameOverScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 667160F71AD133340077FEFC /* GameOverScreen.m */; };
-		66A7694D1ABF2EB400327088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A769451ABF2EB400327088 /* Images.xcassets */; };
+		66923AAB1B28449800C2312F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66923AAA1B28449800C2312F /* Images.xcassets */; };
 		66D7B9941AC16A5300E5075A /* StartScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7B9931AC16A5300E5075A /* StartScreen.m */; };
+		66EF82301B2C4200003A0FB9 /* VKontakteActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EF822F1B2C4200003A0FB9 /* VKontakteActivity.m */; };
 		9CE6ECAAD030DCB18229A96B /* libPods-MadCat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C99DA80BEA844645286A74 /* libPods-MadCat.a */; };
 /* End PBXBuildFile section */
 
@@ -53,9 +54,11 @@
 		666DA2171ABB46E400C1AD06 /* MadCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadCatTests.m; sourceTree = "<group>"; };
 		667160F61AD133340077FEFC /* GameOverScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScreen.h; sourceTree = "<group>"; };
 		667160F71AD133340077FEFC /* GameOverScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScreen.m; sourceTree = "<group>"; };
-		66A769451ABF2EB400327088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66923AAA1B28449800C2312F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66D7B9921AC16A5200E5075A /* StartScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScreen.h; sourceTree = "<group>"; };
 		66D7B9931AC16A5300E5075A /* StartScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScreen.m; sourceTree = "<group>"; };
+		66EF822E1B2C4200003A0FB9 /* VKontakteActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKontakteActivity.h; sourceTree = "<group>"; };
+		66EF822F1B2C4200003A0FB9 /* VKontakteActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKontakteActivity.m; sourceTree = "<group>"; };
 		82C99DA80BEA844645286A74 /* libPods-MadCat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MadCat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,8 +139,10 @@
 				667160F71AD133340077FEFC /* GameOverScreen.m */,
 				660B2B461AC7EBCF00D11656 /* ProgressBar.h */,
 				660B2B471AC7EBCF00D11656 /* ProgressBar.m */,
+				66EF822E1B2C4200003A0FB9 /* VKontakteActivity.h */,
+				66EF822F1B2C4200003A0FB9 /* VKontakteActivity.m */,
 				666DA2051ABB46E300C1AD06 /* Main.storyboard */,
-				66A769451ABF2EB400327088 /* Images.xcassets */,
+				66923AAA1B28449800C2312F /* Images.xcassets */,
 				666DA1FB1ABB46E300C1AD06 /* Supporting Files */,
 			);
 			path = MadCat;
@@ -262,8 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A7694D1ABF2EB400327088 /* Images.xcassets in Resources */,
 				660B2BF81ACF091C00D11656 /* incorrect.wav in Resources */,
+				66923AAB1B28449800C2312F /* Images.xcassets in Resources */,
 				660B2BF71ACF091C00D11656 /* correct.wav in Resources */,
 				666DA2071ABB46E300C1AD06 /* Main.storyboard in Resources */,
 				664132441ABEFA2B0069B6B1 /* Theater.ttf in Resources */,
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66EF82301B2C4200003A0FB9 /* VKontakteActivity.m in Sources */,
 				660B2B481AC7EBCF00D11656 /* ProgressBar.m in Sources */,
 				667160F81AD133340077FEFC /* GameOverScreen.m in Sources */,
 				666DA2041ABB46E300C1AD06 /* GameScreen.m in Sources */,

@@ -8,6 +8,8 @@
 
 #import "GameOverScreen.h"
 #import "GameScreen.h"
+#import "VKontakteActivity.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface GameOverScreen () {
     int bestScore;
@@ -106,11 +108,20 @@
 }
 
 - (IBAction)shareButtonReleased:(id)sender {
-    NSString *shareMessage = [NSString stringWithFormat:@"Score for this round was: %i", self.score];
-    NSArray *shareMessageArray = @[shareMessage];
+    //take screenshot
+    CGSize imageSize = CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height);
+    UIGraphicsBeginImageContext(imageSize);
+    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *screenshot = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
     
-    UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:shareMessageArray
-                                                                           applicationActivities:nil];
+    
+    NSArray *items = @[screenshot];
+    
+    VKontakteActivity *vkAct = [[VKontakteActivity alloc] init];
+    
+    UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:items
+                                                                           applicationActivities:@[vkAct]];
     
     [self presentViewController:activity animated:YES completion:nil];
     [self.shareButton setImage:[UIImage imageNamed:@"share.png"] forState:UIControlStateNormal];
